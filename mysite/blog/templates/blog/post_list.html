@@ -3,6 +3,17 @@
 		<title>Blog Asi G.</title>
 	</head>
 	<body>
-		<p>Tu bedzie blog Asi</p>
+		<div>
+			<p>Tu bedzie blog Asi G</p>
+		</div>
+
+		{% for post in posts %}
+		<div>
+			{{ post.tytul }}
+			{{ post.autor }}
+			{{ post.publikowany }}
+		</div>		
+		{% endfor %}
+
 	</body>
 </html>

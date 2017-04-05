@@ -25,7 +25,7 @@ SECRET_KEY = '%mt_14ueq)0*m8o0++r$e#^&)fftlu27-)&ttr&@%!jw7rhp4w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['grabekt.pythonanywhere.com']
 
 
 # Application definition
